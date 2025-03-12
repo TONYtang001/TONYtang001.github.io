@@ -4,9 +4,40 @@
   
     
     <entry>
+      <title>实习路上--（2）</title>
+      <link href="/2025/03/12/%E5%AE%9E%E4%B9%A0DAY2/"/>
+      <url>/2025/03/12/%E5%AE%9E%E4%B9%A0DAY2/</url>
+      
+        <content type="html"><![CDATA[<p><img src="/../images/%E5%AE%9E%E4%B9%A0/2.png"></p><h2 id="DAY-2"><a href="#DAY-2" class="headerlink" title="DAY_2"></a>DAY_2</h2><h3 id="一、工作"><a href="#一、工作" class="headerlink" title="一、工作"></a>一、工作</h3><ol><li>企业微信标签分类修改</li><li>（预告）工资明细（应该是叫这个名儿吧？）页面的开发</li></ol><h3 id="二、学到的"><a href="#二、学到的" class="headerlink" title="二、学到的"></a>二、学到的</h3><ol><li>git-flow，之前以为网上看看自己就回了，其实不过是记住了几个指令罢了，还得是在实际工作中学到真本事，respect</li><li>读代码能力，因为项目本身已经经手过二十多个人，所以不出所料的层层堆砌，屎而山之。不过好在是前端，好在是框架开发（神说：要有Vue），从页面网址+router入手，到具体的component，再到嵌套的子组件，最后F12查找标签class，再组件内Ctrl+F定位到具体某行代码…不知道有没有更方便的方法QWQ</li></ol><h3 id="三、午饭"><a href="#三、午饭" class="headerlink" title="三、午饭"></a>三、午饭</h3><p>炒年糕—15r（抱歉今日依旧无图QWQ，和两位前辈一起吃饭，实在不好意思端起手机拍照。吃饭的时候听他们聊房贷，聊车贷，聊生孩子，才猛地发觉自己也接近这些生活了，压力起来了（bushi））</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> job </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
+            
+            <tag> 实习 </tag>
+            
+            <tag> 技术 </tag>
+            
+            <tag> 开发 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>实习路上--（1）</title>
-      <link href="/2025/03/11/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/"/>
-      <url>/2025/03/11/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/</url>
+      <link href="/2025/03/11/%E5%AE%9E%E4%B9%A0DAY1/"/>
+      <url>/2025/03/11/%E5%AE%9E%E4%B9%A0DAY1/</url>
       
         <content type="html"><![CDATA[<p><img src="/../images/%E5%AE%9E%E4%B9%A0/1.png"></p><h2 id="DAY-1"><a href="#DAY-1" class="headerlink" title="DAY_1"></a>DAY_1</h2><h3 id="一、环境部署"><a href="#一、环境部署" class="headerlink" title="一、环境部署"></a>一、环境部署</h3><ol><li><p>从GitLab分别拉取base和webapp两个仓库代码</p></li><li><p>下载switchHost用于切换Host地址以符合要求（不咋懂）</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">##</span><br><span class="line"># Host Database</span><br><span class="line">#</span><br><span class="line"># localhost is used to configure the loopback interface</span><br><span class="line"># when the system is booting.  Do not change this entry.</span><br><span class="line">##</span><br><span class="line">127.0.0.1        localhost</span><br><span class="line">255.255.255.255        broadcasthost</span><br><span class="line">::1             localhost</span><br><span class="line"></span><br><span class="line"># --- SWITCHHOSTS_CONTENT_START ---</span><br><span class="line"></span><br><span class="line"># dtminds-local</span><br><span class="line"># 121.5.9.228 smp-api-test.dtminds.com</span><br><span class="line"># 121.5.9.228 scrm-api-test.dtminds.com</span><br><span class="line"># 81.69.180.210 hd-smp-test.dtminds.com</span><br><span class="line">...</span><br></pre></td></tr></table></figure><p>​</p></li><li><p>node版本均使用V20.18.1，其中webapp下载依赖时频繁报错，最终在V16.20.2下下载依赖包，切回V20.18.1启动成功</p></li></ol><h3 id="二、需要学习的技术"><a href="#二、需要学习的技术" class="headerlink" title="二、需要学习的技术"></a>二、需要学习的技术</h3><ol><li>企业微信开发</li><li>vue2部分语法</li><li>antd-ui使用</li></ol><h3 id="三、午饭"><a href="#三、午饭" class="headerlink" title="三、午饭"></a>三、午饭</h3><p>酸汤肥牛砂锅（抱歉无图QWQ）</p>]]></content>
       
