@@ -4,6 +4,68 @@
   
     
     <entry>
+      <title>业务总结（3）-- 聊天记录全局搜索</title>
+      <link href="/2025/05/06/%E4%B8%9A%E5%8A%A1%E6%80%BB%E7%BB%93-3/"/>
+      <url>/2025/05/06/%E4%B8%9A%E5%8A%A1%E6%80%BB%E7%BB%93-3/</url>
+      
+        <content type="html"><![CDATA[<h2 id="聊天记录全局搜索"><a href="#聊天记录全局搜索" class="headerlink" title="聊天记录全局搜索"></a>聊天记录全局搜索</h2><h3 id="一、设计稿"><a href="#一、设计稿" class="headerlink" title="一、设计稿"></a>一、设计稿</h3><p><img src="/../images/%E5%AE%9E%E4%B9%A0/%E4%B8%9A%E5%8A%A1/%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95/%E8%AE%BE%E8%AE%A1%E7%A8%BF.png"></p><h3 id="二、页面成品截图展示"><a href="#二、页面成品截图展示" class="headerlink" title="二、页面成品截图展示"></a>二、页面成品截图展示</h3><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>聊天记录主页面（这里现在我没有权限，所以聊天记录具体内容展示不出来）</td><td><img src="/../images/%E5%AE%9E%E4%B9%A0/%E4%B8%9A%E5%8A%A1/%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95/1.png"></td></tr><tr><td>全局搜索弹窗，左侧是找到的有相关聊天记录的群聊，右边是选中某个群聊后的群聊内容展示，这里用到了企业微信的接口与模版</td><td><img src="/../images/%E5%AE%9E%E4%B9%A0/%E4%B8%9A%E5%8A%A1/%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95/2.png"></td></tr><tr><td>同上</td><td><img src="/../images/%E5%AE%9E%E4%B9%A0/%E4%B8%9A%E5%8A%A1/%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95/3.png"></td></tr></tbody></table><h3 id="三、杂"><a href="#三、杂" class="headerlink" title="三、杂"></a>三、杂</h3><p>这个项目是我实习比较前期做的，也是我打杂阶段后接手的第一个比较完整的项目，但是我做得很痛苦，因为设计了与企业微信开发相关的许多内容，以及当时我对vue的各种父子传值还不太熟练，这里主要要开发展示的内容都在这个全局搜索弹窗内，左侧是用已有的一个组件改的，右侧又要放企微的聊天记录模版，样式需要做许多兼容，以及聊天记录和查询到的群聊、成员…的滚动更新实在是个很繁琐，较复杂的东西，以聊天记录滚动为例，由于使用的是企微的模版，所以无法获得到标准的滚动信息（scrollTop以及另外的两个啥量），费劲拿到之后，涉及上下滚动又不同的逻辑，用到的是同一个接口，但是需要传的关键参数–消息时间戳…总之就是现在回想起当时的情况都觉得复杂，当然现在再写可能会好一些了，因为也算是摸清一点门道了，当时人生地不熟外加菜的发昏（bushi）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> job </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实习 </tag>
+            
+            <tag> 技术 </tag>
+            
+            <tag> 开发 </tag>
+            
+            <tag> 前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>业务总结（2）-- 佣金提现</title>
+      <link href="/2025/05/06/%E4%B8%9A%E5%8A%A1%E6%80%BB%E7%BB%93-2/"/>
+      <url>/2025/05/06/%E4%B8%9A%E5%8A%A1%E6%80%BB%E7%BB%93-2/</url>
+      
+        <content type="html"><![CDATA[<h2 id="企业组织架构"><a href="#企业组织架构" class="headerlink" title="企业组织架构"></a>企业组织架构</h2><h3 id="一、设计稿"><a href="#一、设计稿" class="headerlink" title="一、设计稿"></a>一、设计稿</h3><p><img src="/../images/%E5%AE%9E%E4%B9%A0/%E4%B8%9A%E5%8A%A1/%E4%BD%A3%E9%87%91%E6%8F%90%E7%8E%B0/%E8%AE%BE%E8%AE%A1%E7%A8%BF.png"></p><h3 id="二、页面成品截图展示"><a href="#二、页面成品截图展示" class="headerlink" title="二、页面成品截图展示"></a>二、页面成品截图展示</h3><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>佣金提现主页面</td><td><img src="/../images/%E5%AE%9E%E4%B9%A0/%E4%B8%9A%E5%8A%A1/%E4%BD%A3%E9%87%91%E6%8F%90%E7%8E%B0/1.png"></td></tr><tr><td>佣金提现审核弹窗，批量和单独共用一个（封装成了一个组件）</td><td><img src="/../images/%E5%AE%9E%E4%B9%A0/%E4%B8%9A%E5%8A%A1/%E4%BD%A3%E9%87%91%E6%8F%90%E7%8E%B0/2.png"></td></tr><tr><td>提现记录详情弹窗，这里弹窗里的上半部分和佣金提现审核弹窗里的一样，所以单独封装成一个弹窗（组件化，封装思想）</td><td><img src="/../images/%E5%AE%9E%E4%B9%A0/%E4%B8%9A%E5%8A%A1/%E4%BD%A3%E9%87%91%E6%8F%90%E7%8E%B0/3.png"></td></tr></tbody></table><h3 id="三、杂"><a href="#三、杂" class="headerlink" title="三、杂"></a>三、杂</h3><p>这个项目是相对最独立完成的一个，主体是一个table，后续做的企业组织架构也类似，但是这个业务要求要简单一些，有一些容易遗忘，值得关注的点：</p><ol><li>防抖</li><li>按钮权限：页面上的按钮大多数都需要权限校验，公司有自己的规范（指在BOSS后台新建权限字段，赋予相应角色相应权限，然后在页面里调用方法校验相应字段）</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> job </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 实习 </tag>
+            
+            <tag> 技术 </tag>
+            
+            <tag> 开发 </tag>
+            
+            <tag> 前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>业务总结（1）-- 企业组织架构</title>
       <link href="/2025/05/06/%E4%B8%9A%E5%8A%A1%E6%80%BB%E7%BB%93-1/"/>
       <url>/2025/05/06/%E4%B8%9A%E5%8A%A1%E6%80%BB%E7%BB%93-1/</url>
