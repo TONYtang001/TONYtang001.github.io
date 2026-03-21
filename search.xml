@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>hexo更新个人博客流程</title>
+      <link href="/2026/03/21/hexo%E6%9B%B4%E6%96%B0%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%E5%A4%87%E5%BF%98/"/>
+      <url>/2026/03/21/hexo%E6%9B%B4%E6%96%B0%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B%E5%A4%87%E5%BF%98/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一、文件夹结构一览"><a href="#一、文件夹结构一览" class="headerlink" title="一、文件夹结构一览"></a>一、文件夹结构一览</h2><p><img src="/../images/hexo_img/1.png"></p><h2 id="二、更新一篇blog主要需要修改的地方"><a href="#二、更新一篇blog主要需要修改的地方" class="headerlink" title="二、更新一篇blog主要需要修改的地方"></a>二、更新一篇blog主要需要修改的地方</h2><p>新建一篇md（E:\Blog\source\_posts）</p><p><img src="/../images/hexo_img/2.png"></p><p>在md文档里，顶部的标签内容可以参考别的文档，也可以直接复制过来再修改</p><p><img src="/../images/hexo_img/3.png"></p><p>这里以本篇为例，tags和categories就参考这里格式，需要写已经创建过的词条（例如下面就是已有的tag词条，但具体怎么创建的我有点忘了，可以参考<a href="https://blog.csdn.net/mjh1667002013/article/details/129290903">【Hexo】Hexo搭建Butterfly主题并快速美化_hexo butterfly-CSDN博客</a>）</p><p><img src="/../images/hexo_img/4.png"></p><p>而top_img指在网站上点开这篇文章显示出来的开头的图片，如下，若需要新的图片则需要在对应的文件夹里添加图片，并修改这里的路径。cover为网站里在主页看到这篇文章的封面配图，修改方式和top_img同理。</p><p><img src="/../images/hexo_img/5.png"></p><p>然后是md文章内容里用到的图片，需要放在对应文件夹里，然后在文档里用路径插入图片</p><p><img src="/../images/hexo_img/6.png"></p><p>总结下来，就是新建一个md文档，然后修改顶部标签与路径，在三个图片文件夹里分别添加对应的需要的图片</p><h2 id="三、上传所需的hexo命令"><a href="#三、上传所需的hexo命令" class="headerlink" title="三、上传所需的hexo命令"></a>三、上传所需的hexo命令</h2><p>首先是在E:\Blog路径下右键打开git bash</p><p><img src="/../images/hexo_img/7.png"></p><p>然后用指令hexo server来打开本地预览，可通过<a href="http://localhost:4000/%E6%9F%A5%E7%9C%8B%E9%A2%84%E8%A7%88%E6%95%88%E6%9E%9C">http://localhost:4000/查看预览效果</a></p><p><img src="/../images/hexo_img/8.png"></p><p>预览确认无误后则输入指令hexo generate生成静态文件</p><p><img src="/../images/hexo_img/9.png"></p><p>最后输入指令hexo d即可完成上传，片刻后就可以在<a href="https://tonytang001.github.io下看到更新的文章了/">https://TONYtang001.github.io下看到更新的文章了</a></p><p><img src="/../images/hexo_img/10.png"></p><p>参考链接<a href="https://blog.csdn.net/qq_22841387/article/details/151066378">零基础搭建 Hexo 博客：从本地到 GitHub Pages 全流程指南_hexo博客 新建页面-CSDN博客</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> study </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 自学 </tag>
+            
+            <tag> 多图 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>随想录-（更新2025.10~2026.3）</title>
       <link href="/2026/03/21/%E9%9A%8F%E6%83%B3%E5%BD%95-%E6%9B%B4%E6%96%B01/"/>
       <url>/2026/03/21/%E9%9A%8F%E6%83%B3%E5%BD%95-%E6%9B%B4%E6%96%B01/</url>
