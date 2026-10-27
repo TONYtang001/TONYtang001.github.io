@@ -191,6 +191,20 @@ class LocalSearch {
           data.url = decodeURIComponent(data.url).replace(/\/{2,}/g, '/')
           return data
         })
+        // 把「已解锁的加密文章」正文补进索引（存在 sessionStorage，仅当前标签页）
+        // 见 source/js/hbe-locked.js
+        try {
+          for (let i = 0; i < sessionStorage.length; i++) {
+            const key = sessionStorage.key(i)
+            if (!key || key.indexOf('hbe-search:') !== 0) continue
+            const entry = JSON.parse(sessionStorage.getItem(key))
+            if (!entry || !entry.url) continue
+            // 搜索索引里已经有这篇的「标题条目」，用带正文的版本替换掉
+            const idx = this.datas.findIndex(data => data.url === entry.url)
+            if (idx >= 0) this.datas[idx] = entry
+            else this.datas.push(entry)
+          }
+        } catch (e) { /* 忽略 */ }
         // Remove loading animation
         window.dispatchEvent(new Event('search:loaded'))
       })

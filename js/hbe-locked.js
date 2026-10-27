@@ -25,7 +25,11 @@
     var search = window.__btfLocalSearch
     if (!search || !Array.isArray(search.datas) || !entry) return
     for (var i = 0; i < search.datas.length; i++) {
-      if (search.datas[i].url === entry.url) return
+      // 索引里可能已有这篇的「标题条目」（正文为空），替换成带正文的版本
+      if (search.datas[i].url === entry.url) {
+        search.datas[i] = entry
+        return
+      }
     }
     search.datas.push(entry)
   }
