@@ -243,6 +243,9 @@ window.addEventListener('load', () => {
     unescape
   })
 
+  // 暴露给加密文章使用：解锁后把正文补进搜索索引（见 source/js/hbe-locked.js）
+  window.__btfLocalSearch = localSearch
+
   const input = document.querySelector('#local-search-input input')
   const statsItem = document.getElementById('local-search-stats-wrap')
   const $loadingStatus = document.getElementById('loading-status')
