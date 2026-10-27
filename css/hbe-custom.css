@@ -1,0 +1,20 @@
+/* 加密文章（hexo-blog-encrypt）的少量外观调整，不影响其他页面 */
+
+/* 解锁前先把目录卡片藏起来，解锁后由主题 JS 重新显示 */
+.hbe-locked #card-toc {
+  display: none !important;
+}
+
+/* 解锁面板收窄一点，避免输入框下划线横贯整篇文章 */
+#hexo-blog-encrypt {
+  padding: 2.2rem 0 0.8rem;
+}
+
+#hexo-blog-encrypt .hbe-input {
+  width: 100%;
+  max-width: 420px;
+}
+
+#hexo-blog-encrypt .hbe-button {
+  margin-top: 1.4rem;
+}
